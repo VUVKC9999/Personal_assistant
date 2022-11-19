@@ -30,6 +30,7 @@ from urllib.request import urlopen
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
+# can change the voice by changung the number in abouve line
 
 def speak(audio):
     engine.say(audio)

@@ -361,6 +361,4 @@ if __name__ == '__main__':
 #                print(next(res.results).text)
  #               speak(next(res.results).text)
 
-  #          except StopIteration:
-   #             print("No results")
-    #            speak("Sorry to say this, I found no results related to that")
+  
